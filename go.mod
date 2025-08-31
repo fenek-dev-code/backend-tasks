@@ -1,4 +1,4 @@
-module github.com/fenek-dev/backend-tasks
+module github.com/fenek-dev-code/backend-tasks
 
 go 1.25.0
 

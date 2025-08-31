@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/fenek-dev/backend-tasks/internal/config"
-	"github.com/fenek-dev/backend-tasks/internal/logger"
-	"github.com/fenek-dev/backend-tasks/internal/storage"
+	"github.com/fenek-dev-code/backend-tasks/internal/config"
+	"github.com/fenek-dev-code/backend-tasks/internal/logger"
+	"github.com/fenek-dev-code/backend-tasks/internal/storage"
 	"go.uber.org/zap"
 )
 
