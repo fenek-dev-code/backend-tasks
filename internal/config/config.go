@@ -4,6 +4,7 @@ import "github.com/ilyakaznacheev/cleanenv"
 
 type Config struct {
 	DataBaseConfig `env:"storage" yaml:"storage" env-default:""`
+	SqliteConfig   `env:"sqlite" yaml:"sqlite" env-default:""`
 	ServerConfig   `env:"server" yaml:"server" env-default:""`
 	LoggerConfig   `env:"logger" yaml:"logger" env-default:""`
 }
@@ -25,6 +26,10 @@ type ServerConfig struct {
 	Prefix string `env:"PREFIX,required" yaml:"PREFIX" env-default:"/api/v1"`
 	Host   string `env:"HOST,required" yaml:"HOST" env-default:"localhost"`
 	Port   int    `env:"PORT,required" yaml:"PORT" env-default:"8080"`
+}
+
+type SqliteConfig struct {
+	Path string `env:"SQLITE_PATH,required" yaml:"path" env-default:"./tasks.db"`
 }
 
 func NewConfig() (*Config, error) {

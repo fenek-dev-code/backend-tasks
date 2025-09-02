@@ -12,6 +12,9 @@ require (
 )
 
 require (
+	github.com/go-chi/chi/v5 v5.2.3
+	github.com/go-chi/cors v1.2.2
 	github.com/ilyakaznacheev/cleanenv v1.5.0
+	github.com/mattn/go-sqlite3 v1.14.32
 	go.uber.org/multierr v1.10.0 // indirect
 )

@@ -1,0 +1,18 @@
+sqlite:
+  path: ./tasks.db
+
+server:
+  prefix: /api/v1
+  port: 3000
+  host: localhost
+
+logger:
+  log_level: debug
+  log_path: ./logs/log.log
+
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: postgres
+  dbname: postgres

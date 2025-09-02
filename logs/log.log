@@ -1,0 +1,32 @@
+2025-09-02T10:18:04.625+0300	[34mINFO[0m	main/main.go:29	logger: logger initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:18:04.625+0300	[35mDEBUG[0m	main/main.go:30	logger: debug message	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:18:04.626+0300	[34mINFO[0m	main/main.go:37	db: database initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:18:04.626+0300	[34mINFO[0m	storage/storage.go:15	storage: new storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:18:04.626+0300	[31mFATAL[0m	main/main.go:42	failed to ping database: 	{"service": "my-rest-api", "version": "1.0.0", "error": "Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub"}
+main.main
+	C:/Users/Sentra1s/Desktop/project/golang/backend-tasks/cmd/main/main.go:42
+runtime.main
+	C:/Users/Sentra1s/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.25.0.windows-amd64/src/runtime/proc.go:285
+2025-09-02T10:19:34.829+0300	[34mINFO[0m	main/main.go:29	logger: logger initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:19:34.830+0300	[35mDEBUG[0m	main/main.go:30	logger: debug message	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:19:34.830+0300	[34mINFO[0m	main/main.go:37	db: database initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:19:34.830+0300	[34mINFO[0m	storage/storage.go:15	storage: new storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:19:34.830+0300	[34mINFO[0m	main/main.go:41	storage: storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:57:35.625+0300	[34mINFO[0m	main/main.go:29	logger: logger initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:57:35.626+0300	[35mDEBUG[0m	main/main.go:30	logger: debug message	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:57:35.627+0300	[34mINFO[0m	main/main.go:37	db: database initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:57:35.627+0300	[34mINFO[0m	storage/storage.go:15	storage: new storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:57:35.627+0300	[34mINFO[0m	main/main.go:41	storage: storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T10:57:58.652+0300	[31mFATAL[0m	main/main.go:50	failed to start server: 	{"service": "my-rest-api", "version": "1.0.0", "error": "http: Server closed"}
+main.main
+	C:/Users/Sentra1s/Desktop/project/golang/backend-tasks/cmd/main/main.go:50
+runtime.main
+	C:/Users/Sentra1s/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.25.0.windows-amd64/src/runtime/proc.go:285
+2025-09-02T11:00:29.252+0300	[34mINFO[0m	main/main.go:29	logger: logger initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T11:00:29.253+0300	[35mDEBUG[0m	main/main.go:30	logger: debug message	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T11:00:29.253+0300	[34mINFO[0m	main/main.go:37	db: database initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T11:00:29.253+0300	[34mINFO[0m	storage/storage.go:15	storage: new storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T11:00:29.253+0300	[34mINFO[0m	main/main.go:41	storage: storage initialized	{"service": "my-rest-api", "version": "1.0.0"}
+2025-09-02T11:00:29.254+0300	[34mINFO[0m	router/router.go:75	server: server started	{"service": "my-rest-api", "version": "1.0.0", "addr": "localhost:8080"}
+2025-09-02T11:00:33.631+0300	[34mINFO[0m	router/router.go:51	health check	{"service": "my-rest-api", "version": "1.0.0", "status": "OK"}
+2025-09-02T11:00:43.266+0300	[34mINFO[0m	router/router.go:51	health check	{"service": "my-rest-api", "version": "1.0.0", "status": "OK"}

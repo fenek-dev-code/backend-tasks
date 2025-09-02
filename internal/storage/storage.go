@@ -19,10 +19,6 @@ func NewStorage(db *sql.DB, logger *zap.Logger) *Storage {
 	}
 }
 
-func (s *Storage) Ping() error {
-	return s.DB.Ping()
-}
-
 func (s *Storage) Close() error {
 	s.Logger.Info("storage: close storage")
 	return s.DB.Close()
